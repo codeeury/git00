@@ -32,3 +32,24 @@ https://darvishdarab.github.io/cs421_f20/docs/readings/restful/api/
   - 웹 node js (F/B)
   - 앱 ios swift
   - 앱 android java에서
+
+## MEMO
+
+- Git – 분산관리 – 버전관리(버전관리소프트웨어,SVN_subversion) – github(+sourcetree)
+  Git – git 명령어 - https://mi2mic.tistory.com/186 / https://medium.com/@joongwon/git-git-%EB%AA%85%EB%A0%B9%EC%96%B4-%EC%A0%95%EB%A6%AC-c25b421ecdbd
+
+- 저장소
+  Repository(저장소) : local repository / remote repository
+  local에서 커밋하고 푸쉬하면 remote으로 동기화
+
+- Git commit(버전관리) : 1.(작업이 완결된 상태임을 의미) 2.파일을 원격저장소로 보냄 3.소스코드 파일 로컬 업데이트
+  Ex. add, commit, push, pull, fetch…
+
+- Github branch(협업): 1.브랜치(독립되어 작업할 수 있도록 가지를 분리함) 2. Emerge (따로 작업된 소스를 병합하는 것) 3.pull request(여러 작업자가 작업을 한 이후 업데이트/병합을 관리자에게 요청)
+  https://backlog.com/git-tutorial/kr/stepup/stepup1_1.html
+
+- 마크다운(md): 메모장과 같음. 마크다운 사용법(따로 있음)
+  클라이언트 서버 모델: 구글 이미지 검색
+  https://github.com/edu-ministori/gitac01
+
+- 질문: 로컬에서 개발자 프로그램으로 작업할 때의 작업 순서
