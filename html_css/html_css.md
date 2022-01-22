@@ -78,3 +78,20 @@
 - 설명 목록 : dl, dt, dd
 
 ※ 포함관계 / 중첩관계 (Nested Element)
+- 포함하는 요소: 부모(parent) 조상(ancestor)
+- 포함되는 요소: 자식(child) 자손(decendant)
+- 이웃하는 요소: 형제(sibling)
+
+
+### HTML Link
+
+- 하이퍼링크 연결
+
+- a(anchor)
+  -href(hypertext reference) attribute : 연결되는 페이지의 주소 정보
+  -target attribute : _black 새탭열기 설정
+    target="_blank"
+
+- Bookmark 기능
+  - 목적지에 id attribute을 사용해서 이름 지정
+  - a 태그의 href 속성에 "#이름"으로 위치 표시
