@@ -180,3 +180,76 @@ domain : www.abc.com
 
 root 상대방식 : /images/photo.jpg
 ```
+
+## HTML Head
+
+- head element
+
+  - title : 웹사이트 제목 (브라우저 탭에 표시)
+  - meta : 웹사이트 관련 정보
+  - link : css
+  - script : javascript
+
+- meta
+  -charset(character set) : 문자 세트 - 글자(문자)를 표시하는 방법 -종류/개수 =>용량
+
+  - bit : 0/1이 저장되는 공간
+  - 1 bit가 저장/표현할 수 있는 개수(가짓수): 2
+  - 2 _ 2 _ 2 \* 2 => 4 bit => 16개
+  - 1 byte = 8 bit (byte < kb < mb <tb <pb) 1000배수
+
+* UTF-8 :글자 표기 방식 중 하나
+  -2 byte로 글자를 표시 (65536) : 유니코드 -영문 1byte로 표현, 한글은 2byte로 표현
+  -UTF(Universal Coded Character Set + Transformation Format - 8-bit)
+
+* EUC-KR : 한글, 영문 전용 표시 방식
+
+## HTML Block & Inline
+
+- Block -줄바꿈 되어 새 줄에 표시됨 -블럭요소는 너비가 가능한 전체가 채워짐 -줄바꿈 되어 새 줄에 표시됨
+  -text, 블럭요소, 인라인요소 모두 포함할 수 있음
+
+- Inline -줄바꿈 되지 않고 한 줄에 표시됨 -너비가 콘텐츠/ 자식 요소에 맞춰짐
+  -text, 인라인요소 포함할 수 있음()
+
+- div(division)
+
+  - 단순히 영역을 구분하거나 그룹핑을 하는 컨테이너 요소
+  - 블럭요소
+
+- span -단순히 영역을 구분하거나 그룹핑을 하는 컨테이너 요소
+
+```
+<p class="">...</p>
+<p id="">...</p>
+<p>...</p>
+```
+
+- naming 표기법
+- 네이밍할 때 영어 한개 단어로만 네이밍을 하기 힘들기 때문에 여러 단어를 연결해서 네이밍
+- 연결되는 단어를 구분할 수 있도록 표기
+
+```
+hello world : 일반 표기
+
+네이밍
+hello_world : snake (파일명)
+hello-html-world : kebab case (URL-폴더, class/id 이름)
+helloHtmlWorld : camel case (js  - 변수 / 함수 이름)
+HelloHtmlWorld : Pascal case (js - class 이름 )
+
+```
+
+#CSS
+
+## CSS Introduction / Syntax
+
+- cascading Style Sheet
+- 여러개의 html 파일에 공통 적용
+
+```
+선택자 {
+
+}
+
+```
