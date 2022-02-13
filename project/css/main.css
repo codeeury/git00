@@ -3,15 +3,18 @@ body {
   color: #272727;
   font-size: 20px;
   font-weight: 400;
-  line-height: 1.5em;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  line-height: 1.8em;
+  font-family: "Nunito Sans", sans-serif;
 }
 
 a {
   text-decoration: none;
 }
 
+h2 {
+  font-family: "monteserrat";
+  font-size: 30px;
+}
 /* header */
 header {
   background-color: white;
@@ -31,17 +34,17 @@ header .logo {
   top: 20px;
 }
 
-header .menu {
+header .gnb .gnb-list {
   position: absolute;
   top: 20px;
   right: 20px;
   display: flex;
 }
 
-header .menu li {
+header .gnb .gnb-list {
 }
 
-header .menu li a {
+header .gnb .gnb-list a {
   display: block;
   padding: 0 20px;
   right: 20px;
@@ -49,12 +52,12 @@ header .menu li a {
   transition: all 0.4s;
 }
 
-header .menu li a:hover {
+header .gnb .gnb-list a:hover {
   color: rgb(53, 208, 192);
 }
 
 /* intro */
-.intro {
+.section1 {
   background-color: #676767;
   background-image: url("https://images.unsplash.com/photo-1566040378463-fd7063f5860d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
   background-repeat: no-repeat;
@@ -65,7 +68,13 @@ header .menu li a:hover {
   margin: auto;
 }
 
-.intro .contents {
+.section1 .section-heading {
+  color: white;
+  text-align: center;
+  padding: 100px;
+}
+
+.section1 .section-paragraph {
   color: white;
   text-align: center;
   padding: 100px;
@@ -152,13 +161,13 @@ header .menu li a:hover {
   height: 25px;
 }
 
-footer .inner {
+.footer .group {
   background-color: #272727;
   width: 1200px;
   margin: auto;
   color: #ffffff;
 }
 
-footer a {
+.footer a {
   color: #ffffff;
 }
