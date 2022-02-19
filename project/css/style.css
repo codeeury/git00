@@ -1,0 +1,204 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  /* line-height: 1; */
+  font-family: "Nunito Sans", sans-serif;
+  color: #171717;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* common */
+
+a {
+  text-decoration: none;
+  color: #171717;
+}
+
+/* header */
+
+.header {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  padding: 38px 100px 0px;
+}
+.logo {
+  width: 31px;
+  height: 25px;
+}
+.gnb {
+}
+.gnb .gnb-list {
+  display: flex;
+}
+.gnb .gnb-list .gnb-list-item {
+  margin: 0 0 0 25px;
+}
+
+.gnb .gnb-list .gnb-list-item .gnb-list-link {
+  font-family: "monteserrat", sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+}
+.gnb .gnb-list .gnb-list-item .gnb-list-link:active {
+  color: #3ddbdb;
+}
+/* section */
+.section1 {
+  height: 320px;
+  padding: 105px 0 0 0;
+  background-color: #f6f6f6;
+}
+.section-heading {
+  font-family: "monteserrat", sans-serif;
+  font-size: 38px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.section-paragraph {
+  width: 400px;
+  display: block;
+  margin: auto;
+  font-family: "Nunito Sans";
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #787878;
+}
+
+.section2 {
+  width: 1360px;
+}
+
+/* footer */
+.footer {
+  height: 280px;
+  padding: 100px 0 0 0;
+  background-color: #141414;
+  color: #bcbcbc;
+}
