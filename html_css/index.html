@@ -16,6 +16,15 @@
       a {
         text-decoration: none;
       }
+      a.border {
+        text-decoration: none;
+        display: inline-block;
+        padding-bottom: 20px;
+      }
+      a.border:hover {
+        border-bottom: 1px solid red;
+        
+      }
       p {
         text-indent: 16px;
         letter-spacing: 5px;
@@ -29,7 +38,28 @@
       ol {
         list-style-type: none;
       }
-    
+
+      h2 {
+        width: 80%;
+        height: 60px;
+        padding: 20px;
+        border-bottom: 5px solid red;
+        margin-bottom: 30px;
+      }
+      table{
+        width: 100%;
+        border-collapse: collapse;
+      }
+      th,
+      td{
+        border: 1px solid black;
+      }
+      th{
+        background: #aaaaaa
+      }
+      td{
+        text-align: center;
+      }
     </style>
   </head>
   <body>
@@ -57,7 +87,7 @@
         </p>
         <p>
           HTML5는
-          <a
+          <a class="border" 
             href="https://ko.wikipedia.org/wiki/HTML"
             style="text-decoration: none;"
             >HTML 4.01</a
