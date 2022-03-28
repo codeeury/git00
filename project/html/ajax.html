@@ -4,12 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Project - About</title>
+    <title>Project - Home</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="/project/css/style.css" />
     <script src="/project/js/function.js" defer></script>
+    <script src="/project/js/ajax.js"></script>
   </head>
   <body>
     <header class="header">
@@ -23,13 +27,13 @@
       <nav class="gnb">
         <ul class="gnb-list">
           <li class="gnb-list-item">
-            <a href="" class="gnb-list-link">HOME</a>
+            <a href="#" class="gnb-list-link">HOME</a><!-- # : 페이지의 맨 위 -->
           </li>
           <li class="gnb-list-item">
-            <a href="" class="gnb-list-link">ABOUT</a>
+            <a href="#" class="gnb-list-link">ABOUT</a>
           </li>
           <li class="gnb-list-item">
-            <a href="" class="gnb-list-link">CONTACT</a>
+            <a href="#" class="gnb-list-link">CONTACT</a>
           </li>
         </ul>
       </nav>
@@ -37,54 +41,32 @@
         <img src="/project/resource/hamburger-menu.svg" alt="mobile menu" />
       </button>
     </header>
-    <section class="about-section1">
-      <h2 class="section-heading">Amelia Woods</h2>
-      <p class="section-paragraph">
-        A semantic element clearly describes its meaning to both the browser and
-        the developer.
-      </p>
-    </section>
-    <section class="about-section2">
-      <div class="icon-wrap">
-          <dl class="icon-item">
-              <dt class="icon-number">548</dt>
-              <dd class="icon-text">PROJECTS COMPLETED</dd>
-          </dl>
-          <dl class="icon-item">
-            <dt class="icon-number">1465</dt>
-            <dd class="icon-text">WORKING HOURS</dd>
-          </dl>
-          <dl class="icon-item">
-            <dt class="icon-number">612</dt>
-            <dd class="icon-text">POSITIVE FEEDBACKS</dd>
-          </dl>
-          <dl class="icon-item">
-            <dt class="icon-number">735</dt>
-            <dd class="icon-text">HAPPY CLIENTS</dd>
-          </dl>
+    <section class="section1">
+      <div class="slide current">
+        <h2 class="section-heading">UI/UX & Graphic Designer 1</h2>
+        <p class="section-paragraph">
+          A semantic element clearly describes its meaning to<br />
+          both the browser and the developer.
+        </p>
+      </div>
+      <div class="slide next">
+        <h2 class="section-heading">UI/UX & Graphic Designer 2</h2>
+        <p class="section-paragraph">
+          A semantic element clearly describes its meaning to<br />
+          both the browser and the developer.
+        </p>
+      </div>
+      <div class="slide prev">
+        <h2 class="section-heading">UI/UX & Graphic Designer 3</h2>
+        <p class="section-paragraph">
+          A semantic element clearly describes its meaning to<br />
+          both the browser and the developer.
+        </p>
       </div>
     </section>
-    <section>
-      <h2>About me</h2>
-      <p>
-        A semantic element clearly describes its meaning to both the browser and
-        the developer.A semantic element clearly describes its meaning to both
-        the browser and the developer.
-      </p>
-      <p>
-        A semantic element clearly describes its meaning to both the browser and
-        the developer.
-      </p>
-      <img alt="" />
-    </section>
-    <section>
-      <h2>Need a Project?</h2>
-      <p>
-        A semantic element clearly describes its meaning to both the browser and
-        the developer.A semantic element clearly describes its meaning to both
-        the browser and the developer.
-      </p>
-      <button type="button">LET'S TALK</button>
+    <!-- <button type="button" class="play">play</button> -->
+    <section class="ajax">
+      
     </section>
     <footer class="footer">
       <article class="group">
